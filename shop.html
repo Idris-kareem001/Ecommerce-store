@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section>
+     <!-- Header Section --> 
+  <section id="header" class="flex justify-between items-center py-6 px-8 shadow-md bg-purple-300">
+    <h1 class="italic font-bold text-2xl">Dynx-Apparel</h1>
+
+    <!-- Hamburger Icon (mobile only) -->
+    <button id="menu-btn" class="text-3xl md:hidden focus:outline-none">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+    </button>
+
+    <!-- Navigation Links -->
+    <div id="menu" class="hidden md:block">
+      <ul class="flex flex-col md:flex-row md:items-center gap-6 md:gap-12">
+        <li class="hover:font-bold  hover:underline" ><a  href="index.html" class="hover:text-black-600" >Home</a></li>
+        <li class="hover:font-bold hover:underline "><a href="shop.html" class="hover:text-black-600">Shop</a></li>
+        <li class="hover:font-bold hover:underline "><a href="blog.html" class="hover:text-black-600">Blog</a></li>
+        <li class="hover:font-bold hover:underline "><a href="About.html" class="hover:text-black-600">About</a></li>
+        <li class="hover:font-bold hover:underline" ><a href="Contact.html" class="hover:text-black-600">Contact</a></li>
+        <li id="cart" class="hover:font-bold bg-gray-100 py-2 px-2 rounded-full"><a href="cart.html" class="text-2xl">🛒</a></li>
+      </ul>
+    </div>
+  </section>
+ 
+
+
+<div class="grid grid-cols-2 md:grid-cols-5 gap-6 px-10 py-8">
+  <!-- Product 1 -->
+  <div class="border-2 border-gray-400 max-w-sm text-center px-5 py-4 rounded-md shadow-sm cursor-pointer  transition-transform transition-colors duration-300 ease-in-out 
+            hover:scale-105 hover:border-purple-400" onclick="window.location.href='Sproduct.html';">
+    <div class="bg-gray-200 rounded-md h-48 flex items-center justify-center mt-3">
+      <img src="cloth 1.jpg" alt="product-image" class="h-40 w-40 object-cover rounded-md">
+    </div>
+
+    <div class="mt-8">
+      <span class="font-semibold italic">Adidas</span>
+      <h5 class="text-base font-bold">Cartoon Astronaut T-shirt</h5>
+    </div>
+
+    <div class="mt-1 text-yellow-500">⭐⭐⭐⭐⭐</div>
+
+    <div class="flex justify-between items-center mt-3">
+      <h4 class="text-purple-700 font-bold">$78</h4>
+      <a href="#" class="bg-gray-300 rounded-full px-3 py-3 hover:bg-purple-700 transition-colors duration-300">🛒</a>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="border-2 border-gray-400 max-w-sm text-center px-5 py-4 rounded-md shadow-sm cursor-pointer  transition-transform transition-colors duration-300 ease-in-out 
+            hover:scale-105 hover:border-purple-400" onclick="window.location.href='Sproduct.html';">
+    <div class="bg-gray-200 rounded-md h-48 flex items-center justify-center mt-3">
+      <img src="cloth 2.jpg" alt="product-image" class="h-40 w-40 object-cover rounded-md">
+    </div>
+    <div class="mt-8">
+      <span class="font-semibold italic">Adidas</span>
+      <h5 class="text-base font-bold">Urban Wave T-Shirt</h5>
+    </div>
+    <div class="mt-1 text-yellow-500">⭐⭐⭐⭐⭐</div>
+    <div class="flex justify-between items-center mt-3">
+      <h4 class="text-purple-700 font-bold">$80</h4>
+      <a href="#" class="bg-gray-300 rounded-full px-3 py-3 hover:bg-purple-700 transition-colors duration-300">🛒</a>
+    </div>
+  </div>
+
+  <div class="border-2 border-gray-400 max-w-sm text-center px-5 py-4 rounded-md shadow-sm cursor-pointer  transition-transform transition-colors duration-300 ease-in-out 
+            hover:scale-105 hover:border-purple-400" onclick="window.location.href='Sproduct.html';">
+    <div class="bg-gray-200 rounded-md h-48 flex items-center justify-center mt-3">
+      <img src="cloth 3.jpg" alt="product-image" class="h-40 w-40 object-cover rounded-md">
+    </div>
+    <div class="mt-8">
+      <span class="font-semibold italic">Adidas</span>
+      <h5 class="text-base font-bold">Retro Stripe</h5>
+    </div>
+    <div class="mt-1 text-yellow-500">⭐⭐⭐⭐⭐</div>
+    <div class="flex justify-between items-center mt-3">
+      <h4 class="text-purple-700 font-bold">$75</h4>
+      <a href="#" class="bg-gray-300 rounded-full px-3 py-3 hover:bg-purple-700 transition-colors duration-300">🛒</a>
+    </div>
+  </div>
+
+  <div class="border-2 border-gray-400 max-w-sm text-center px-5 py-4 rounded-md shadow-sm cursor-pointer  transition-transform transition-colors duration-300 ease-in-out 
+            hover:scale-105 hover:border-purple-400" onclick="window.location.href='Sproduct.html';">
+    <div class="bg-gray-200 rounded-md h-48 flex items-center justify-center mt-3">
+      <img src="cloth 4.jpg" alt="product-image" class="h-40 w-40 object-cover rounded-md">
+    </div>
+    <div class="mt-8">
+      <span class="font-semibold italic">Adidas</span>
+      <h5 class="text-base font-bold">Ocean Breeze Polo</h5>
+    </div>
+    <div class="mt-1 text-yellow-500">⭐⭐⭐⭐⭐</div>
+    <div class="flex justify-between items-center mt-3">
+      <h4 class="text-purple-700 font-bold">$100</h4>
+      <a href="#" class="bg-gray-300 rounded-full px-3 py-3 hover:bg-purple-700 transition-colors duration-300">🛒</a>
+    </div>
+  </div>
+
+  <div class="border-2 border-gray-400 max-w-sm text-center px-5 py-4 rounded-md shadow-sm cursor-pointer  transition-transform transition-colors duration-300 ease-in-out 
+            hover:scale-105 hover:border-purple-400" onclick="window.location.href='Sproduct.html';">
+    <div class="bg-gray-200 rounded-md h-48 flex items-center justify-center mt-3">
+      <img src="cloth 5.jpg" alt="product-image" class="h-40 w-40 object-cover rounded-md">
+    </div>
+    <div class="mt-8">
+      <span class="font-semibold italic">Adidas</span>
+      <h5 class="text-base font-bold">Vintage Denim</h5>
+    </div>
+    <div class="mt-1 text-yellow-500">⭐⭐⭐⭐⭐</div>
+    <div class="flex justify-between items-center mt-3">
+      <h4 class="text-purple-700 font-bold">$80</h4>
+      <a href="#" class="bg-gray-300 rounded-full px-3 py-3 hover:bg-purple-700 transition-colors duration-300">🛒</a>
+    </div>
+  </div>
+
+  <div class="border-2 border-gray-400 max-w-sm text-center px-5 py-4 rounded-md shadow-sm cursor-pointer  transition-transform transition-colors duration-300 ease-in-out 
+            hover:scale-105 hover:border-purple-400" onclick="window.location.href='Sproduct.html';">
+    <div class="bg-gray-200 rounded-md h-48 flex items-center justify-center mt-3">
+      <img src="cloth 6.jpg" alt="product-image" class="h-40 w-40 object-cover rounded-md">
+    </div>
+    <div class="mt-8">
+      <span class="font-semibold italic">Adidas</span>
+      <h5 class="text-base font-bold">Cosmic Vibes</h5>
+    </div>
+    <div class="mt-1 text-yellow-500">⭐⭐⭐⭐⭐</div>
+    <div class="flex justify-between items-center mt-3">
+      <h4 class="text-purple-700 font-bold">$150</h4>
+      <a href="#" class="bg-gray-300 rounded-full px-3 py-3 hover:bg-purple-700 transition-colors duration-300">🛒</a>
+    </div>
+  </div>
+
+  <div class="border-2 border-gray-400 max-w-sm text-center px-5 py-4 rounded-md shadow-sm cursor-pointer  transition-transform transition-colors duration-300 ease-in-out 
+            hover:scale-105 hover:border-purple-400" onclick="window.location.href='Sproduct.html';">
+    <div class="bg-gray-200 rounded-md h-48 flex items-center justify-center mt-3">
+      <img src="cloth 7.jpg" alt="product-image" class="h-40 w-40 object-cover rounded-md">
+    </div>
+    <div class="mt-8">
+      <span class="font-semibold italic">Adidas</span>
+      <h5 class="text-base font-bold">Everyday Essential</h5>
+    </div>
+    <div class="mt-1 text-yellow-500">⭐⭐⭐⭐⭐</div>
+    <div class="flex justify-between items-center mt-3">
+      <h4 class="text-purple-700 font-bold">$99</h4>
+      <a href="#" class="bg-gray-300 rounded-full px-3 py-3 hover:bg-purple-700 transition-colors duration-300">🛒</a>
+    </div>
+  </div>
+
+  <div class="border-2 border-gray-400 max-w-sm text-center px-5 py-4 rounded-md shadow-sm cursor-pointer  transition-transform transition-colors duration-300 ease-in-out 
+            hover:scale-105 hover:border-purple-400" onclick="window.location.href='Sproduct.html';">
+    <div class="bg-gray-200 rounded-md h-48 flex items-center justify-center mt-3">
+      <img src="cloth 8.jpg" alt="product-image" class="h-40 w-40 object-cover rounded-md">
+    </div>
+    <div class="mt-8">
+      <span class="font-semibold italic">Adidas</span>
+      <h5 class="text-base font-bold">Ocean Breeze</h5>
+    </div>
+    <div class="mt-1 text-yellow-500">⭐⭐⭐⭐⭐</div>
+    <div class="flex justify-between items-center mt-3">
+      <h4 class="text-purple-700 font-bold">$85</h4>
+      <a href="#" class="bg-gray-300 rounded-full px-3 py-3 hover:bg-purple-700 transition-colors duration-300">🛒</a>
+    </div>
+  </div>
+
+  <div class="border-2 border-gray-400 max-w-sm text-center px-5 py-4 rounded-md shadow-sm cursor-pointer  transition-transform transition-colors duration-300 ease-in-out 
+            hover:scale-105 hover:border-purple-400" onclick="window.location.href='Sproduct.html';">
+    <div class="bg-gray-200 rounded-md h-48 flex items-center justify-center mt-3">
+      <img src="cloth 9.jpg" alt="product-image" class="h-40 w-40 object-cover rounded-md">
+    </div>
+    <div class="mt-8">
+      <span class="font-semibold italic">Adidas</span>
+      <h5 class="text-base font-bold">Infinity Edge</h5>
+    </div>
+    <div class="mt-1 text-yellow-500">⭐⭐⭐⭐⭐</div>
+    <div class="flex justify-between items-center mt-3">
+      <h4 class="text-purple-700 font-bold">$100</h4>
+      <a href="#" class="bg-gray-300 rounded-full px-3 py-3 hover:bg-purple-700 transition-colors duration-300">🛒</a>
+    </div>
+  </div>
+
+  <div class="border-2 border-gray-400 max-w-sm text-center px-5 py-4 rounded-md shadow-sm cursor-pointer  transition-transform transition-colors duration-300 ease-in-out 
+            hover:scale-105 hover:border-purple-400" onclick="window.location.href='Sproduct.html';">
+    <div class="bg-gray-200 rounded-md h-48 flex items-center justify-center mt-3">
+      <img src="cloth 10.jpg" alt="product-image" class="h-40 w-40 object-cover rounded-md">
+    </div>
+    <div class="mt-8">
+      <span class="font-semibold italic">Adidas</span>
+      <h5 class="text-base font-bold">Skyline Comfort</h5>
+    </div>
+    <div class="mt-1 text-yellow-500">⭐⭐⭐⭐⭐</div>
+    <div class="flex justify-between items-center mt-3">
+      <h4 class="text-purple-700 font-bold">$120</h4>
+      <a href="#" class="bg-gray-300 rounded-full px-3 py-3 hover:bg-purple-700 transition-colors duration-300">🛒</a>
+    </div>
+  </div>
+  </section>
+
+   <section id="pagination" class="text-center justify-center mx-auto font-bold">
+    <div>
+    <a class="border border-1 bg-purple-300 px-3 py-2 hover:bg-purple-500" href="#">1</a>
+    <a class="border border-1 bg-purple-300 px-3 py-2 hover:bg-purple-500" href="#">2</a>
+    <a class="border border-1 bg-purple-300 px-3 py-2 hover:bg-purple-500" href="#">=></a>
+      </div>
+
+   </section>
+
+
+</body>
+</html>
